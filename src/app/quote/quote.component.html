@@ -1,8 +1,8 @@
 
-<!-- <div class="container-full">
+<div class="container-full">
     <h1 class="header">Quotes</h1>
     <div class="row">
-      <div class="col-md-6"> -->
+      <div class="col-md-6">
   
         <div class ="card" *ngFor='let quote of quotes;let i = index'>
           <div class ="card-header">
@@ -12,14 +12,14 @@
             <h4 id="body"> {{quote.body}}</h4>
             <h4 id="author"> -{{quote.author}}</h4>
   
-          <!-- <div *ngIf='quote.showcompleteDate'>
+          <div *ngIf='quote.showcompleteDate'>
             <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
-          </div> -->
-        <!-- </div>
+          </div>
+        </div>
       </div>
       <div class="col-md-6">
         <app-quote-form  (addQuote)="addNewQuote($event)"></app-quote-form>
       </div>
     </div>
-  </div> -->
+  </div>
   
