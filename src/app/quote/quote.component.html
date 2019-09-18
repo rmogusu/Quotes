@@ -1,1 +1,8 @@
-<p>quote works!</p>
+<div class="card" *ngFor="let quote of quotes; let i = index">
+  <div class="card-header">
+    <h4 class="text-center title" id="title">{{ quote.title }}</h4>
+    <div class="del" (click)="toggleDetails(i)"></div>
+  </div>
+  <h4 id="body">{{ quote.body }}</h4>
+  <h4 id="author">-{{ quote.author }}</h4>
+</div>
