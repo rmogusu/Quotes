@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Gabriela|Gravitas+One|Ultra&display=swap");
+
+
+.container-full {
+  background-image: url("~src/assets/bac.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+
+}
