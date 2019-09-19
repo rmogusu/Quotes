@@ -15,6 +15,18 @@ export class QuoteComponent implements OnInit {
   new Quote('Passion ', 'Passion is the genesis of genius.', 'Tony Robbins', new Date(2019, 8 - 1, 19),0,0),
   new Quote('Investment ', 'Never invest in a business you cannot understand.', 'Warren buffett', new Date(2019, 8 - 1, 17),0,0)
 ];
+toggleDetails(index) {
+  this.quotes[index].showcompleteDate = !this.quotes[index].showcompleteDate;
+}
+deleteQuote(isComplete, index) {
+  if (isComplete) {
+    let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].title}?`)
+    if (toDelete) {
+      this.quotes.splice(index, 1)
+
+    }
+  }
+}
   constructor() { }
 
   ngOnInit() {
