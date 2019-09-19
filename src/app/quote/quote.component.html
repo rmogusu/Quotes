@@ -11,7 +11,7 @@
             <h4 id="body"> {{quote.body}}</h4>
             <h4 id="author"> -{{quote.author}}</h4>
   
-          <div *ngIf='quote.showcompleteDate'>
+          <div *ngIf='quote.showCompleteDate'>
             <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
           </div>
         </div>

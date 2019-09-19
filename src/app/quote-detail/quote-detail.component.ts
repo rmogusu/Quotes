@@ -10,14 +10,14 @@ import { Quote} from '../quote';
 export class QuoteDetailComponent implements OnInit {  
   @Input() quote: Quote;
   @Output() isComplete = new EventEmitter<boolean>();
-  @Output() Upvote = new EventEmitter();
+  @Output() UpVote = new EventEmitter();
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
 numberOfLikes = 0;
 numberOfDislikes = 0;
 likeButtonClick() {
-  this.Upvote.emit(this.numberOfLikes);
+  this.UpVote.emit(this.numberOfLikes);
   this.numberOfLikes++;
 }
 
