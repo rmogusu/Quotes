@@ -1,4 +1,4 @@
-<p class ="text-center date" id ="date">posted on {{quote.completeDate|date|uppercase}}  {{quote.completeDate|dateCount}} day(s) ago</p>
+<!-- <p class ="text-center date" id ="date">posted on {{quote.completeDate|date|uppercase}}  {{quote.completeDate|dateCount}} day(s) ago</p>
 <div class ="footer">
 <div  class="del"(click)="quoteDelete(true)"></div>
 <div class="vote">
@@ -7,4 +7,14 @@
   <div class="vote-btn-dislike hover"id ="one" (click)="dislikeButtonClick()"></div>
   <h5>{{numberOfDislikes}}</h5>
   </div>
-  </div>
+  </div> -->
+  <p class ="text-center date" id ="date">posted on {{quote.completeDate|date|uppercase}}  {{quote.completeDate|dateCount}} day(s) ago</p>
+  <div class ="footer">
+  <div  class="del"(click)="quoteDelete(true)"></div>
+  <div class="vote">
+    <div class="vote-btn-like hover" (click)="likeButtonClick()"></div>
+    <h5>{{numberOfLikes}}</h5>
+    <div class="vote-btn-dislike hover"id ="one" (click)="dislikeButtonClick()"></div>
+    <h5>{{numberOfDislikes}}</h5>
+    </div>
+    </div>
