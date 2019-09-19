@@ -18,6 +18,13 @@ export class QuoteComponent implements OnInit {
 toggleDetails(index) {
   this.quotes[index].showCompleteDate = !this.quotes[index].showCompleteDate;
 }
+addNewQuote(quote){
+  let quoteLength = this.quotes.length;
+  // quote.id = quoteLength+1;
+  quote.completeDate = new Date(quote.completeDate)
+  this.quotes.push(quote)
+}
+
 deleteQuote(isComplete, index) {
   if (isComplete) {
     let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].title}?`)
