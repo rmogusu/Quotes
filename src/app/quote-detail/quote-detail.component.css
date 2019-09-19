@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Gabriela|Gravitas+One|Ultra&display=swap" );
+
+
+.del{
+  background-image: url("~src/assets/delete.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius:0%;
+  margin: 15px 0 0 0;
+}
+.vote-btn-like{
+  background-image: url("~src/assets/like.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 100%;
+  margin-top: 3px;
+}
+.vote-btn-dislike{
+  background-image: url("~src/assets/dislike.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 100%;
+  margin-top: 3px;
+}
