@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Gabriela|Gravitas+One|Ultra&display=swap");
 
-/* 
 .container-full {
   background-image: url("~src/assets/bac.jpg");
   background-size: cover;
@@ -10,7 +9,7 @@
   background-attachment: fixed;
   overflow-x: hidden;
 
-} */
+}
 .del {
   background-image: url("~src/assets/toggle.png");
   height: 27px;
@@ -19,4 +18,56 @@
   background-position: center center;
   border-radius: 50%;
   margin: 8px;
+}
+
+
+.container-full {
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-header {
+  background-color: #808080;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gravitas One', cursive;
+}
+.title {
+  margin: 8px;
+  color: white;
+  font-family: 'Gravitas One', cursive;
+}
+
+
+
+
+
+.header {
+  position: relative;
+  font-size: 70px;
+  color: darkgoldenrod;
+  font-family: 'Gravitas One', cursive;
+  text-align: center;
+}
+.card {
+  width: 400px;
+  border: none;
+  margin: 15px 5px 3%;
+  background-color: #ffe6e6;
+  margin-left:40px;
+}
+#body{
+  margin: 50px 10px 10px 10px;
+  font-family: 'Gabriela', serif;
+  font-weight: normal;
+  font-size: 19px;
+
+}
+#author{
+  margin: 10px 10px 10px 10px;
+  font-family: 'Gabriela', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
 }
