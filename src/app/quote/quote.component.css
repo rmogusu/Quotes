@@ -51,11 +51,11 @@
   text-align: center;
 }
 .card {
-  width: 300px;
+  width: 400px;
   border: none;
   margin: 15px 5px 3%;
   background-color: #ffe6e6;
-  margin-left:20px;
+  margin-left:60px;
   display: flex;
   flex-wrap: wrap;
    justify-content: space-between;
