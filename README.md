@@ -6,7 +6,7 @@ Quote website allow users to add a new quote below the existing quotes, a user c
 Rose Mogusu.
 
 ## Screenshot
-/home/rose/Pictures/Screenshot from 2019-09-21 05-21-02.png
+background-image: url("~src/assets/screenshot.png");
 
 
 ## Development server
