@@ -1,12 +1,12 @@
 # Quotes
 
-Quote website allow users to add a new quote below the existing quotes, a user can like or dislike the existing quote ,as well as a user can delete or highlight the quote with highest likes.
+This Quote project was created by Angular CLI version 8.3.4 and it allow users to add a new quote below the existing quotes, a user can like or dislike the existing quote ,as well as a user can delete or highlight the quote with highest likes.
 
 ## Author
 Rose Mogusu.
 
-## Screenshot
-This project was generated with Angular CLI version 8.3.4.
+## Development server
+<img src="src/assets/screenshot.png" width="1000">
 
 ## Development server
 
