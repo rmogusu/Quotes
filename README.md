@@ -6,8 +6,7 @@ Quote website allow users to add a new quote below the existing quotes, a user c
 Rose Mogusu.
 
 ## Screenshot
-background-image: url("~src/assets/screenshot.png");
-
+This project was generated with Angular CLI version 8.3.4.
 
 ## Development server
 
