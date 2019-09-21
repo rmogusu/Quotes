@@ -19,8 +19,7 @@ toggleDetails(index) {
   this.quotes[index].showCompleteDate = !this.quotes[index].showCompleteDate;
 }
 addNewQuote(quote){
-  let quoteLength = this.quotes.length;
-  // quote.id = quoteLength+1;
+  let quoteLength = this.quotes.length
   quote.completeDate = new Date(quote.completeDate)
   this.quotes.push(quote)
 }

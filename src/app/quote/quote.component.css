@@ -40,9 +40,6 @@
 }
 
 
-
-
-
 .header {
   position: relative;
   font-size: 70px;
@@ -51,15 +48,11 @@
   text-align: center;
 }
 .card {
-  width: 400px;
+  width: 300px;
   border: none;
   margin: 15px 5px 3%;
   background-color: #ffe6e6;
-  margin-left:60px;
-  display: flex;
-  flex-wrap: wrap;
-   justify-content: space-between;
-
+  margin-left:10px;
 
 }
 #body{
@@ -75,4 +68,10 @@
   font-size: 16px;
   font-weight: lighter;
   color: gray;
+}
+.cards{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
