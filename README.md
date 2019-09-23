@@ -5,6 +5,11 @@ This Quote project was created by Angular CLI version 8.3.4 and it allow users t
 ## Author
 Rose Mogusu.
 
+## screenshot
+<img src="https://github.com/rmogusu/Quotes/blob/master/src/assets/screenshot.png?raw=true" width="1000">
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
