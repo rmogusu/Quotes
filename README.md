@@ -6,9 +6,6 @@ This Quote project was created by Angular CLI version 8.3.4 and it allow users t
 Rose Mogusu.
 
 ## Development server
-<img src="src/assets/screenshot.png" width="1000">
-
-## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
